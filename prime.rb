@@ -4,7 +4,6 @@ def prime?(possibly_prime_number)
     while number < possibly_prime_number
       possibly_prime_number % number != 0
     end
-  end
   }
 end
 puts prime?(9)

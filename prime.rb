@@ -6,5 +6,6 @@ def prime?(possibly_prime_number)
     end
   }
 end
+
 puts prime?(9)
 

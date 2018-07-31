@@ -4,6 +4,7 @@ def prime?(possibly_prime_number)
     numbers_range.all? {|number| possibly_prime_number % number != 0}
   else
     false
+  end
 end
 
 puts prime?(-1)
